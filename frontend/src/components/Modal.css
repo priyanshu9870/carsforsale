@@ -1,0 +1,90 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1050; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Disable scroll */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Dialog */
+.modal-dialog {
+    width: 100%;
+    max-width: 500px;
+    margin: 1.75rem auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.3rem;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+/* Modal Header */
+.modal-header {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+    color: #000;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Modal Body */
+.modal-body {
+    color: #000;
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+/* Modal Footer */
+.modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.close-btn {
+    background-color: #6c757d;
+    color: white;
+}
+
+.close-btn:hover {
+    background-color: #5a6268;
+}
+
+/* Responsive Modal */
+@media screen and (max-width: 600px) {
+    .modal-dialog {
+        max-width: 90%;
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "luxury_cars": [
+        {
+            "manufacturer": "Mercedes-Benz",
+            "manufacture_date": "2024",
+            "model": "S-Class",
+            "image_url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+            "specifications": {
+                "engine": "3.0L Inline-6 Turbo",
+                "horsepower": "429 HP",
+                "torque": "520 Nm",
+                "top_speed": "250 km/h"
+            },
+            "price": "$115,000"
+        },
+        {
+            "manufacturer": "BMW",
+            "manufacture_date": "2024",
+            "model": "7 Series",
+            "image_url": "https://images.unsplash.com/photo-1555215695-3004980ad54e",
+            "specifications": {
+                "engine": "3.0L TwinPower Turbo",
+                "horsepower": "375 HP",
+                "torque": "540 Nm",
+                "top_speed": "250 km/h"
+            },
+            "price": "$98,000"
+        },
+        {
+            "manufacturer": "Audi",
+            "manufacture_date": "2024",
+            "model": "A8",
+            "image_url": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341",
+            "specifications": {
+                "engine": "3.0L V6 TFSI",
+                "horsepower": "335 HP",
+                "torque": "500 Nm",
+                "top_speed": "250 km/h"
+            },
+            "price": "$92,000"
+        },
+        {
+            "manufacturer": "Porsche",
+            "manufacture_date": "2024",
+            "model": "Panamera",
+            "image_url": "https://images.unsplash.com/photo-1502161254066-6c74afbf07aa",
+            "specifications": {
+                "engine": "2.9L Twin-Turbo V6",
+                "horsepower": "348 HP",
+                "torque": "500 Nm",
+                "top_speed": "270 km/h"
+            },
+            "price": "$108,000"
+        },
+        {
+            "manufacturer": "Lexus",
+            "manufacture_date": "2024",
+            "model": "LS 500",
+            "image_url": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7",
+            "specifications": {
+                "engine": "3.5L Twin-Turbo V6",
+                "horsepower": "416 HP",
+                "torque": "600 Nm",
+                "top_speed": "250 km/h"
+            },
+            "price": "$89,000"
+        }
+    ],
+    "normal_suvs": [
+        {
+            "manufacturer": "Toyota",
+            "manufacture_date": "2024",
+            "model": "RAV4",
+            "image_url": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
+            "specifications": {
+                "engine": "2.5L 4-Cylinder",
+                "horsepower": "203 HP",
+                "torque": "249 Nm",
+                "top_speed": "190 km/h"
+            },
+            "price": "$30,000"
+        },
+        {
+            "manufacturer": "Honda",
+            "manufacture_date": "2024",
+            "model": "CR-V",
+            "image_url": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8",
+            "specifications": {
+                "engine": "1.5L Turbo",
+                "horsepower": "190 HP",
+                "torque": "243 Nm",
+                "top_speed": "200 km/h"
+            },
+            "price": "$32,000"
+        },
+        {
+            "manufacturer": "Hyundai",
+            "manufacture_date": "2024",
+            "model": "Tucson",
+            "image_url": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
+            "specifications": {
+                "engine": "2.5L 4-Cylinder",
+                "horsepower": "187 HP",
+                "torque": "241 Nm",
+                "top_speed": "190 km/h"
+            },
+            "price": "$29,500"
+        },
+        {
+            "manufacturer": "Kia",
+            "manufacture_date": "2024",
+            "model": "Sportage",
+            "image_url": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d",
+            "specifications": {
+                "engine": "2.5L 4-Cylinder",
+                "horsepower": "187 HP",
+                "torque": "241 Nm",
+                "top_speed": "190 km/h"
+            },
+            "price": "$28,000"
+        },
+        {
+            "manufacturer": "Nissan",
+            "manufacture_date": "2024",
+            "model": "Rogue",
+            "image_url": "https://images.unsplash.com/photo-1493238792000-8113da705763",
+            "specifications": {
+                "engine": "1.5L Turbo",
+                "horsepower": "201 HP",
+                "torque": "305 Nm",
+                "top_speed": "195 km/h"
+            },
+            "price": "$31,000"
+        }
+    ]
+}
