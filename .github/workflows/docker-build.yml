@@ -28,5 +28,13 @@ jobs:
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/cars-backend:v1 ./backend
 
 
+      - name: Push Backend Docker Image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/cars-backend:v1
+
+
       - name: Build Frontend Docker Image
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/cars-frontend:v1 ./frontend
+
+
+      - name: Push Frontend Docker Image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/cars-frontend:v1
